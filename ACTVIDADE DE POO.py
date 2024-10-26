@@ -55,3 +55,5 @@ class DatosMeteorologicos:
         direccion_predominante = grados_a_direccion[contador_direcciones.most_common(1)[0][0]]
 
         return temp_prom, hum_prom, presion_prom, vel_viento_prom, direccion_predominante
+    
+print("gracias...")
